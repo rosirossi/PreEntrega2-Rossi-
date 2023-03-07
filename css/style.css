@@ -1,159 +1,168 @@
-/*#93B5C6 pewter blue*/
-/*#FF6978 ultra red*/
-/*#DDEDAA yellow green crayola*/
-/*#F0CF65 orange yellow crayola*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-
-.titulo {
-    color: white;
-    text-align: center;
-    align-content: center;
-}
+.intro__titulo {
+  color: white;
+  text-align: center;
+  align-content: center; }
 
 h1 {
-    font-family: 'Homemade Apple', cursive;
-    font-size: 3rem;
-    text-align: center;
-    align-content: center;
-    padding: 20px;
-}
-
+  font-family: 'Shadows Into Light Two', cursive;
+  font-size: 3rem;
+  text-align: center;
+  align-content: center;
+  padding: 20px; }
 
 h2 {
-    font-family: 'Shadows Into Light Two', cursive;
-    color: brown;
-    text-align: center;
-    align-content: center;
-    padding: 20px;
-}
-
+  font-family: 'Shadows Into Light Two', cursive;
+  color: brown;
+  text-align: center;
+  align-content: center;
+  padding: 20px; }
 
 h4 {
-    color: white ;
-    text-align: center;
-    font-family: 'Shadows Into Light Two', cursive;
-}
+  color: white;
+  text-align: center;
+  font-family: 'Shadows Into Light Two', cursive; }
 
 h6 {
-    text-align: center;
-    align-content: center;
-    padding: 20px;
-}
+  text-align: center;
+  align-content: center;
+  padding: 20px; }
 
 nav {
-    font-family: 'Shadows Into Light Two', cursive;
-    width: 90%;
-    height: 55px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    justify-content: center;
-}
-
-nav ul {
+  background-color: #cf7777;
+  font-family: 'Shadows Into Light Two', cursive;
+  width: 90%;
+  height: 55px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  justify-content: center; }
+  nav ul {
+    background-color: #c08989;
     list-style-type: none;
     display: flex;
-    align-items: center;
-}
-
-nav ul li {
+    align-items: center; }
+  nav li {
+    color: #FF6978;
+    text-decoration: none; }
+  nav a {
     color: #FF6978;
     text-decoration: none;
-}
-
-nav ul a {
-    color: #FF6978;
-    text-decoration: none;
-    padding: .7rem;
-}
-
-nav ul a:hover{
-    color: #93B5C6;
-}
+    padding: .7rem; }
+    nav a:hover {
+      color: #93B5C6; }
 
 .intro {
-    background-image: url(../assets/img/portada0.jpg);
-    width: 100%;
-    height: 400px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 20px;
-    margin: 20px auto;
-}
-
-.intro-content {
-  display: block;
-}
-
-.nav-index {
-    background-image: url(../assets/img/empapelado2.jpg);
-    width: 100%;
-}
-
-.navegacion{
+  background-image: url(../assets/img/portadamod.jpg);
+  width: 100%;
+  height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px;
+  margin: 10px auto; }
+  .intro .intro__titulo {
     display: flex;
     justify-content: center;
-}
+    align-items: center;
+    text-align: center; }
 
-main {
-    background-image: url(../assets/img/empapelado2.jpg);
-    width: 100%;
-    margin: auto;
-}
+.nav-index {
+  background-color: #cf7777;
+  width: 100%;
+  padding: 0; }
+  .nav-index .navegacion {
+    background-color: #cf7777;
+    display: flex;
+    justify-content: center; }
 
-.productos {
+.main__index {
+  background-image: url(../assets/img/empapelado4.jpg);
+  width: 100%;
+  margin: auto; }
+  .main__index .productos {
     font-family: 'Shadows Into Light Two', cursive;
-    margin:auto;
+    margin: auto;
     display: flex;
     flex-wrap: nowrap;
-    padding-bottom: 5px;
-}
+    padding-bottom: 5px; }
 
 .blanco {
-    width: 100%;
-    height: 200px;
-}
+  width: 100%;
+  height: 200px; }
 
 .descripcion {
-    background-color: rgb(243, 202, 209);
-}
+  background-color: #f3cad1; }
 
 .productos__boton {
-    background-color: brown;
-    border: none;
-}
+  background-color: brown;
+  border: none; }
 
 .productos__boton:hover {
-    background-color: #FF6978;
-}
+  background-color: #FF6978; }
 
 .footer {
-    margin-top: 0;
-    background-color: rgb(207, 119, 119);
-    font-family: 'Shadows Into Light Two', cursive;
-}
+  text-align: center;
+  margin-top: 0;
+  background-color: #cf7777;
+  font-family: 'Shadows Into Light Two', cursive;
+  display: flex; }
+  .footer a {
+    text-decoration: none; }
+  .footer .links-footer {
+    background-color: #cf7777; }
+  .footer .fixed-bottom {
+    display: flex;
+    justify-content: end;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply; }
 
-.main-pages {
-    background-image: url(../assets/img/back-about.jpg);
-    width: 100%;
-    margin: auto;
-    height: 600px;
-}
+.historia {
+  width: 90%;
+  height: 500px;
+  display: flex;
+  justify-content: space-around; }
 
-.nav__p{
-    color: white;
-    font-family: 'Shadows Into Light Two', cursive;
-}
+.descripcion {
+  background-color: azure; }
 
-.nav-pages{
-    background-color: brown;
-}
+.container-historia {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  width: 50% auto;
+  height: 500px;
+  gap: 7px 7px;
+  grid-auto-flow: row;
+  grid-template-areas: "descripcion1  descripcion1 foto 1 foto1" "descripcion2 descripcion2 foto2 foto2" "descripcion3 descripcion3 foto3 foto3"; }
+
+.descripcion1 {
+  color: black;
+  background-color: pink;
+  grid-area: descripcion1; }
+
+.foto1 {
+  background-color: blue;
+  grid-area: foto1; }
+
+.descripcion2 {
+  background-color: red;
+  grid-area: descripcion2; }
+
+.foto2 {
+  background-color: yellow;
+  grid-area: foto2; }
+
+.descripcion3 {
+  background-color: red;
+  grid-area: descripcion3; }
+
+.foto {
+  background-color: yellow;
+  grid-area: foto3; }

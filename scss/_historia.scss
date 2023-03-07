@@ -1,0 +1,58 @@
+.historia {
+    width: 90%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.descripcion {
+    background-color: azure;
+}
+
+
+.container-historia {  
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr); 
+    width: 50% auto;
+    height: 500px;
+    gap: 7px 7px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "descripcion1  descripcion1 foto 1 foto1"
+      "descripcion2 descripcion2 foto2 foto2"
+      "descripcion3 descripcion3 foto3 foto3";
+      
+  }
+
+  .descripcion1 { 
+    color: black;
+    background-color: pink;
+    grid-area: descripcion1; 
+}
+  
+  .foto1 { 
+    background-color: blue;
+    grid-area: foto1; }
+  
+  .descripcion2 { 
+    background-color: red;
+    grid-area: descripcion2; 
+}
+  
+  .foto2 { 
+    background-color: yellow;
+    grid-area: foto2; 
+}
+  
+.descripcion3 { 
+    background-color: red;
+    grid-area: descripcion3; 
+}
+  
+  .foto { 
+    background-color: yellow;
+    grid-area: foto3; 
+}
+  
